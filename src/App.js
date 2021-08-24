@@ -10,7 +10,7 @@ function App() {
     <div>
       <MyNav title=" My Book Store" />
       <Jumbo message="Welcome! to My Book Store" />
-      <LatestRelease />
+      <LatestRelease subtitle="Latest Release" />
       <Footer website="MyBookStore.com" />
     </div>
   );

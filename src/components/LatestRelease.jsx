@@ -1,10 +1,10 @@
 import { Container, Card, Button, Row, Col } from "react-bootstrap";
 import books from "../data/horror.json";
 
-const LatestRelease = () => {
+const LatestRelease = ({subtitle}) => {
   return (
     <Container>
-      <h4 className="mb-3">Latest Releases</h4>
+      <h4 className="mb-3">{subtitle}</h4>
 
       <Row>
         {books.map((book) => (
