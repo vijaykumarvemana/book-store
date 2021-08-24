@@ -15,6 +15,7 @@ const LatestRelease = () => {
           <Card>
            <Card.Img variant="top" src={book.img} />
            <Card.Body>
+           <Card.Title>{book.title}</Card.Title>
            <Button variant="dark">Buy</Button>
 
           </Card.Body>
