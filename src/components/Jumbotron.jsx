@@ -2,8 +2,8 @@ import { Jumbotron, Button, Container } from "react-bootstrap";
 
 const Jumbo = ({ message }) => {
   return (
-    <Container>
-      <Jumbotron>
+    <Container >
+      <Jumbotron className="bg-light">
         <h2>{message}</h2>
         <p>
           We offer tremendous gathering of books in various classification of
